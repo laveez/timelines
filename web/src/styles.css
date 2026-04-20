@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@import "@fontsource/montserrat/600.css";
+@import "@fontsource/montserrat/700.css";
+@import "@fontsource/open-sans/400.css";
+@import "@fontsource/open-sans/500.css";
+@import "@fontsource/open-sans/600.css";
+
+@theme {
+  --color-bg: #121212;
+  --color-surface: #1e1e1e;
+  --color-surface-raised: #2c2c2c;
+  --color-border: rgba(255, 255, 255, 0.08);
+  --color-text: #e0e0e0;
+  --color-text-muted: rgba(255, 255, 255, 0.55);
+  --color-accent: #f59e0b;
+  --color-accent-hover: #fbbf24;
+  --color-accent-muted: #78350f;
+
+  --font-sans: "Open Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-display: "Montserrat", "Open Sans", system-ui, sans-serif;
+}
+
+html {
+  color-scheme: dark;
+  height: 100%;
+}
+
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.rdg {
+  --rdg-color: var(--color-text);
+  --rdg-background-color: var(--color-surface);
+  --rdg-header-background-color: var(--color-surface-raised);
+  --rdg-row-hover-background-color: var(--color-surface-raised);
+  --rdg-border-color: var(--color-border);
+  --rdg-selection-color: var(--color-accent);
+  --rdg-font-size: 13px;
+  font-family: var(--font-sans);
+  block-size: 100%;
+}

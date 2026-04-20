@@ -1,0 +1,190 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1468" height="940" viewBox="0 0 1468 940">
+<style>
+text { font-family: "Avenir Next", "Segoe UI", sans-serif; fill: #0f172a; }
+.small { font-size: 12px; }
+.label { font-size: 16px; font-weight: 600; }
+.month { font-size: 14px; font-weight: 700; }
+.title { font-size: 24px; font-weight: 700; }
+</style>
+<defs>
+<pattern id="planned-pattern-0" patternUnits="userSpaceOnUse" width="10" height="10" patternTransform="rotate(45)">
+<rect width="10" height="10" fill="#c63939" fill-opacity="0.55" />
+<line x1="0" y1="0" x2="0" y2="10" stroke="#ffffff" stroke-width="3" stroke-opacity="0.72" />
+</pattern>
+<pattern id="planned-pattern-1" patternUnits="userSpaceOnUse" width="10" height="10" patternTransform="rotate(45)">
+<rect width="10" height="10" fill="#c68e39" fill-opacity="0.55" />
+<line x1="0" y1="0" x2="0" y2="10" stroke="#ffffff" stroke-width="3" stroke-opacity="0.72" />
+</pattern>
+<pattern id="planned-pattern-2" patternUnits="userSpaceOnUse" width="10" height="10" patternTransform="rotate(45)">
+<rect width="10" height="10" fill="#aac639" fill-opacity="0.55" />
+<line x1="0" y1="0" x2="0" y2="10" stroke="#ffffff" stroke-width="3" stroke-opacity="0.72" />
+</pattern>
+<pattern id="planned-pattern-3" patternUnits="userSpaceOnUse" width="10" height="10" patternTransform="rotate(45)">
+<rect width="10" height="10" fill="#55c639" fill-opacity="0.55" />
+<line x1="0" y1="0" x2="0" y2="10" stroke="#ffffff" stroke-width="3" stroke-opacity="0.72" />
+</pattern>
+<pattern id="planned-pattern-4" patternUnits="userSpaceOnUse" width="10" height="10" patternTransform="rotate(45)">
+<rect width="10" height="10" fill="#39c671" fill-opacity="0.55" />
+<line x1="0" y1="0" x2="0" y2="10" stroke="#ffffff" stroke-width="3" stroke-opacity="0.72" />
+</pattern>
+<pattern id="planned-pattern-5" patternUnits="userSpaceOnUse" width="10" height="10" patternTransform="rotate(45)">
+<rect width="10" height="10" fill="#39c6c6" fill-opacity="0.55" />
+<line x1="0" y1="0" x2="0" y2="10" stroke="#ffffff" stroke-width="3" stroke-opacity="0.72" />
+</pattern>
+<pattern id="planned-pattern-6" patternUnits="userSpaceOnUse" width="10" height="10" patternTransform="rotate(45)">
+<rect width="10" height="10" fill="#3971c6" fill-opacity="0.55" />
+<line x1="0" y1="0" x2="0" y2="10" stroke="#ffffff" stroke-width="3" stroke-opacity="0.72" />
+</pattern>
+<pattern id="planned-pattern-7" patternUnits="userSpaceOnUse" width="10" height="10" patternTransform="rotate(45)">
+<rect width="10" height="10" fill="#5539c6" fill-opacity="0.55" />
+<line x1="0" y1="0" x2="0" y2="10" stroke="#ffffff" stroke-width="3" stroke-opacity="0.72" />
+</pattern>
+<pattern id="planned-pattern-8" patternUnits="userSpaceOnUse" width="10" height="10" patternTransform="rotate(45)">
+<rect width="10" height="10" fill="#aa39c6" fill-opacity="0.55" />
+<line x1="0" y1="0" x2="0" y2="10" stroke="#ffffff" stroke-width="3" stroke-opacity="0.72" />
+</pattern>
+<pattern id="planned-pattern-9" patternUnits="userSpaceOnUse" width="10" height="10" patternTransform="rotate(45)">
+<rect width="10" height="10" fill="#c6398e" fill-opacity="0.55" />
+<line x1="0" y1="0" x2="0" y2="10" stroke="#ffffff" stroke-width="3" stroke-opacity="0.72" />
+</pattern>
+<pattern id="planned-pattern-10" patternUnits="userSpaceOnUse" width="10" height="10" patternTransform="rotate(45)">
+<rect width="10" height="10" fill="#c66439" fill-opacity="0.55" />
+<line x1="0" y1="0" x2="0" y2="10" stroke="#ffffff" stroke-width="3" stroke-opacity="0.72" />
+</pattern>
+<pattern id="planned-pattern-11" patternUnits="userSpaceOnUse" width="10" height="10" patternTransform="rotate(45)">
+<rect width="10" height="10" fill="#c6b839" fill-opacity="0.55" />
+<line x1="0" y1="0" x2="0" y2="10" stroke="#ffffff" stroke-width="3" stroke-opacity="0.72" />
+</pattern>
+<pattern id="planned-pattern-12" patternUnits="userSpaceOnUse" width="10" height="10" patternTransform="rotate(45)">
+<rect width="10" height="10" fill="#7fc639" fill-opacity="0.55" />
+<line x1="0" y1="0" x2="0" y2="10" stroke="#ffffff" stroke-width="3" stroke-opacity="0.72" />
+</pattern>
+<pattern id="planned-pattern-13" patternUnits="userSpaceOnUse" width="10" height="10" patternTransform="rotate(45)">
+<rect width="10" height="10" fill="#39c647" fill-opacity="0.55" />
+<line x1="0" y1="0" x2="0" y2="10" stroke="#ffffff" stroke-width="3" stroke-opacity="0.72" />
+</pattern>
+<pattern id="planned-pattern-14" patternUnits="userSpaceOnUse" width="10" height="10" patternTransform="rotate(45)">
+<rect width="10" height="10" fill="#39c69c" fill-opacity="0.55" />
+<line x1="0" y1="0" x2="0" y2="10" stroke="#ffffff" stroke-width="3" stroke-opacity="0.72" />
+</pattern>
+</defs>
+<rect width="100%" height="100%" fill="#f8fafc" />
+<text class="title" x="24" y="34">Timeline 2026</text>
+<text class="small" x="24" y="52">Week view</text>
+<rect x="24" y="62" width="18" height="12" rx="4" fill="#c63939" />
+<text class="small" x="48" y="72">Confirmed</text>
+<rect x="132" y="62" width="18" height="12" rx="4" fill="url(#planned-pattern-0)" opacity="0.92" />
+<text class="small" x="156" y="72">Planned</text>
+<rect x="184" y="92" width="336" height="26" fill="#e2e8f0" rx="6" />
+<text class="month" x="192" y="109">Jun 2026</text>
+<rect x="436" y="92" width="420" height="26" fill="#e2e8f0" rx="6" />
+<text class="month" x="444" y="109">Jul 2026</text>
+<rect x="772" y="92" width="504" height="26" fill="#e2e8f0" rx="6" />
+<text class="month" x="780" y="109">Aug 2026</text>
+<rect x="1192" y="92" width="252" height="26" fill="#e2e8f0" rx="6" />
+<text class="month" x="1200" y="109">Sep 2026</text>
+<rect x="184" y="122" width="84" height="788" fill="#ffffff" stroke="#e2e8f0" />
+<text class="small" x="226.0" y="140" text-anchor="middle">W24</text>
+<rect x="268" y="122" width="84" height="788" fill="#f8fafc" stroke="#e2e8f0" />
+<text class="small" x="310.0" y="140" text-anchor="middle">W25</text>
+<rect x="352" y="122" width="84" height="788" fill="#ffffff" stroke="#e2e8f0" />
+<text class="small" x="394.0" y="140" text-anchor="middle">W26</text>
+<rect x="436" y="122" width="84" height="788" fill="#f8fafc" stroke="#e2e8f0" />
+<text class="small" x="478.0" y="140" text-anchor="middle">W27</text>
+<rect x="520" y="122" width="84" height="788" fill="#ffffff" stroke="#e2e8f0" />
+<text class="small" x="562.0" y="140" text-anchor="middle">W28</text>
+<rect x="604" y="122" width="84" height="788" fill="#f8fafc" stroke="#e2e8f0" />
+<text class="small" x="646.0" y="140" text-anchor="middle">W29</text>
+<rect x="688" y="122" width="84" height="788" fill="#ffffff" stroke="#e2e8f0" />
+<text class="small" x="730.0" y="140" text-anchor="middle">W30</text>
+<rect x="772" y="122" width="84" height="788" fill="#f8fafc" stroke="#e2e8f0" />
+<text class="small" x="814.0" y="140" text-anchor="middle">W31</text>
+<rect x="856" y="122" width="84" height="788" fill="#ffffff" stroke="#e2e8f0" />
+<text class="small" x="898.0" y="140" text-anchor="middle">W32</text>
+<rect x="940" y="122" width="84" height="788" fill="#f8fafc" stroke="#e2e8f0" />
+<text class="small" x="982.0" y="140" text-anchor="middle">W33</text>
+<rect x="1024" y="122" width="84" height="788" fill="#ffffff" stroke="#e2e8f0" />
+<text class="small" x="1066.0" y="140" text-anchor="middle">W34</text>
+<rect x="1108" y="122" width="84" height="788" fill="#f8fafc" stroke="#e2e8f0" />
+<text class="small" x="1150.0" y="140" text-anchor="middle">W35</text>
+<rect x="1192" y="122" width="84" height="788" fill="#ffffff" stroke="#e2e8f0" />
+<text class="small" x="1234.0" y="140" text-anchor="middle">W36</text>
+<rect x="1276" y="122" width="84" height="788" fill="#f8fafc" stroke="#e2e8f0" />
+<text class="small" x="1318.0" y="140" text-anchor="middle">W37</text>
+<rect x="1360" y="122" width="84" height="788" fill="#ffffff" stroke="#e2e8f0" />
+<text class="small" x="1402.0" y="140" text-anchor="middle">W38</text>
+<text class="label" x="24" y="169">Aino</text>
+<line x1="24" y1="182" x2="1444" y2="182" stroke="#cbd5e1" />
+<rect x="522.0" y="151" width="164.0" height="24" fill="#c63939" opacity="1" rx="10" />
+<text class="small" x="526.0" y="167" style="fill: #ffffff;">6.-19.7.</text>
+<rect x="942.0" y="151" width="164.0" height="24" fill="url(#planned-pattern-0)" opacity="0.92" rx="10" stroke="#c63939" stroke-width="1" />
+<text class="small" x="946.0" y="167" style="fill: #0f172a;">10.-23.8.</text>
+<text class="label" x="24" y="221">Eero</text>
+<line x1="24" y1="234" x2="1444" y2="234" stroke="#cbd5e1" />
+<rect x="438.0" y="203" width="332.0" height="24" fill="#c68e39" opacity="1" rx="10" />
+<text class="small" x="442.0" y="219" style="fill: #ffffff;">29.6.-26.7.</text>
+<text class="label" x="24" y="273">Helmi</text>
+<line x1="24" y1="286" x2="1444" y2="286" stroke="#cbd5e1" />
+<rect x="354.0" y="255" width="164.0" height="24" fill="url(#planned-pattern-2)" opacity="0.92" rx="10" stroke="#aac639" stroke-width="1" />
+<text class="small" x="358.0" y="271" style="fill: #0f172a;">22.6.-5.7.</text>
+<rect x="690.0" y="255" width="164.0" height="24" fill="#aac639" opacity="1" rx="10" />
+<text class="small" x="694.0" y="271" style="fill: #ffffff;">20.7.-2.8.</text>
+<text class="label" x="24" y="325">Mikko</text>
+<line x1="24" y1="338" x2="1444" y2="338" stroke="#cbd5e1" />
+<rect x="606.0" y="307" width="248.0" height="24" fill="url(#planned-pattern-3)" opacity="0.92" rx="10" stroke="#55c639" stroke-width="1" />
+<text class="small" x="610.0" y="323" style="fill: #0f172a;">13.7.-2.8.</text>
+<text class="label" x="24" y="377">Sofia</text>
+<line x1="24" y1="390" x2="1444" y2="390" stroke="#cbd5e1" />
+<rect x="270.0" y="359" width="164.0" height="24" fill="#39c671" opacity="1" rx="10" />
+<text class="small" x="274.0" y="375" style="fill: #ffffff;">15.-28.6.</text>
+<rect x="1026.0" y="359" width="164.0" height="24" fill="url(#planned-pattern-4)" opacity="0.92" rx="10" stroke="#39c671" stroke-width="1" />
+<text class="small" x="1030.0" y="375" style="fill: #0f172a;">17.-30.8.</text>
+<text class="label" x="24" y="429">Onni</text>
+<line x1="24" y1="442" x2="1444" y2="442" stroke="#cbd5e1" />
+<rect x="858.0" y="411" width="164.0" height="24" fill="#39c6c6" opacity="1" rx="10" />
+<text class="small" x="862.0" y="427" style="fill: #ffffff;">3.-16.8.</text>
+<text class="label" x="24" y="481">Linnea</text>
+<line x1="24" y1="494" x2="1444" y2="494" stroke="#cbd5e1" />
+<rect x="522.0" y="463" width="248.0" height="24" fill="url(#planned-pattern-6)" opacity="0.92" rx="10" stroke="#3971c6" stroke-width="1" />
+<text class="small" x="526.0" y="479" style="fill: #0f172a;">6.-26.7.</text>
+<rect x="942.0" y="463" width="80.0" height="24" fill="#3971c6" opacity="1" rx="10" />
+<text class="small" x="946.0" y="479" style="fill: #ffffff;">10.-16.8.</text>
+<text class="label" x="24" y="533">Väinö</text>
+<line x1="24" y1="546" x2="1444" y2="546" stroke="#cbd5e1" />
+<text class="label" x="24" y="585">Iida</text>
+<line x1="24" y1="598" x2="1444" y2="598" stroke="#cbd5e1" />
+<rect x="438.0" y="567" width="164.0" height="24" fill="#aa39c6" opacity="1" rx="10" />
+<text class="small" x="442.0" y="583" style="fill: #ffffff;">29.6.-12.7.</text>
+<rect x="858.0" y="567" width="80.0" height="24" fill="url(#planned-pattern-8)" opacity="0.92" rx="10" stroke="#aa39c6" stroke-width="1" />
+<text class="small" x="862.0" y="583" style="fill: #0f172a;">3.-9.8.</text>
+<text class="label" x="24" y="637">Tapio</text>
+<line x1="24" y1="650" x2="1444" y2="650" stroke="#cbd5e1" />
+<rect x="690.0" y="619" width="248.0" height="24" fill="#c6398e" opacity="1" rx="10" />
+<text class="small" x="694.0" y="635" style="fill: #ffffff;">20.7.-9.8.</text>
+<text class="label" x="24" y="689">Saana</text>
+<line x1="24" y1="702" x2="1444" y2="702" stroke="#cbd5e1" />
+<rect x="270.0" y="671" width="164.0" height="24" fill="#c66439" opacity="1" rx="10" />
+<text class="small" x="274.0" y="687" style="fill: #ffffff;">15.-28.6.</text>
+<rect x="606.0" y="671" width="332.0" height="24" fill="url(#planned-pattern-10)" opacity="0.92" rx="10" stroke="#c66439" stroke-width="1" />
+<text class="small" x="610.0" y="687" style="fill: #0f172a;">13.7.-9.8.</text>
+<text class="label" x="24" y="741">Akseli</text>
+<line x1="24" y1="754" x2="1444" y2="754" stroke="#cbd5e1" />
+<rect x="522.0" y="723" width="164.0" height="24" fill="#c6b839" opacity="1" rx="10" />
+<text class="small" x="526.0" y="739" style="fill: #ffffff;">6.-19.7.</text>
+<text class="label" x="24" y="793">Elias</text>
+<line x1="24" y1="806" x2="1444" y2="806" stroke="#cbd5e1" />
+<rect x="354.0" y="775" width="332.0" height="24" fill="url(#planned-pattern-12)" opacity="0.92" rx="10" stroke="#7fc639" stroke-width="1" />
+<text class="small" x="358.0" y="791" style="fill: #0f172a;">22.6.-19.7.</text>
+<text class="label" x="24" y="845">Matilda</text>
+<line x1="24" y1="858" x2="1444" y2="858" stroke="#cbd5e1" />
+<rect x="858.0" y="827" width="164.0" height="24" fill="#39c647" opacity="1" rx="10" />
+<text class="small" x="862.0" y="843" style="fill: #ffffff;">3.-16.8.</text>
+<rect x="1194.0" y="827" width="164.0" height="24" fill="url(#planned-pattern-13)" opacity="0.92" rx="10" stroke="#39c647" stroke-width="1" />
+<text class="small" x="1198.0" y="843" style="fill: #0f172a;">31.8.-13.9.</text>
+<text class="label" x="24" y="897">Oskari</text>
+<line x1="24" y1="910" x2="1444" y2="910" stroke="#cbd5e1" />
+<rect x="438.0" y="879" width="80.0" height="24" fill="#39c69c" opacity="1" rx="10" />
+<text class="small" x="442.0" y="895" style="fill: #ffffff;">29.6.-5.7.</text>
+<rect x="774.0" y="879" width="248.0" height="24" fill="#39c69c" opacity="1" rx="10" />
+<text class="small" x="778.0" y="895" style="fill: #ffffff;">27.7.-16.8.</text>
+</svg>

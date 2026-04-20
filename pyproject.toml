@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "timelines"
+version = "1.0.0"
+description = "Tiny stdlib-only Python CLI that renders people/time-period CSVs as standalone HTML and SVG timelines."
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [{ name = "laveez" }]
+requires-python = ">=3.10"
+keywords = ["cli", "timeline", "svg", "visualization", "gantt", "schedule"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Multimedia :: Graphics",
+    "Topic :: Utilities",
+]
+
+[project.urls]
+Homepage = "https://github.com/laveez/timelines"
+Issues = "https://github.com/laveez/timelines/issues"
+Repository = "https://github.com/laveez/timelines"
+
+[project.scripts]
+timelines = "timelines:main"
+
+[tool.setuptools]
+py-modules = ["timelines"]
