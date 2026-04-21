@@ -83,6 +83,8 @@ Helmi
 | `--palette NAME\|LIST` | `dark`, `light`, `uniform`, or a comma-separated color list. Default: `dark` |
 | `--text-mode auto\|fixed` | Bar text color rule. Default: `auto` |
 | `--padding-days N` | Extra days shown on each side of the timeline. Default: `2` |
+| `--from YYYY-MM-DD` | Clip the timeline to start at this date (inclusive) |
+| `--to YYYY-MM-DD` | Clip the timeline to end at this date (inclusive) |
 | `--html-output PATH` | HTML output path. Default: `timelines.html` for the bundled input, otherwise `gitignored/<stem>.html` |
 | `--svg-output PATH` | SVG output path. Default: `timelines.svg` for the bundled input, otherwise `gitignored/<stem>.svg` |
 
