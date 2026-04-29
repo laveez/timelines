@@ -123,3 +123,95 @@ export function peopleToCsv(people: PersonEntry[]): string {
     })
   return rowsToCsv(rows)
 }
+
+export interface PastPeriodEntry {
+  name: string
+  status: 'C' | 'P'
+  start: string
+  end: string
+  label: string
+}
+
+export interface FindPastPeriodsResult {
+  entries: PastPeriodEntry[]
+  cleanedCsv: string
+}
+
+const ISO_DATE_PATTERN = /^(\d{4})-(\d{2})-(\d{2})$/
+
+function localIsoDate(now: Date): string {
+  const y = now.getFullYear()
+  const m = String(now.getMonth() + 1).padStart(2, '0')
+  const d = String(now.getDate()).padStart(2, '0')
+  return `${y}-${m}-${d}`
+}
+
+function formatFinnishPeriodLabel(startIso: string, endIso: string): string {
+  const s = ISO_DATE_PATTERN.exec(startIso)
+  const e = ISO_DATE_PATTERN.exec(endIso)
+  if (!s || !e) return `${startIso} to ${endIso}`
+  const sy = Number(s[1]), sm = Number(s[2]), sd = Number(s[3])
+  const ey = Number(e[1]), em = Number(e[2]), ed = Number(e[3])
+  if (sy === ey && sm === em && sd === ed) return `${sd}.${sm}.`
+  if (sy === ey && sm === em) return `${sd}.-${ed}.${em}.`
+  return `${sd}.${sm}.-${ed}.${em}.`
+}
+
+/**
+ * Returns events whose end date is strictly before today (local time) along with
+ * a CSV that has those triplets stripped. Rows whose only periods were past stay
+ * as name-only rows; partial trailing triplets and unrelated cells round-trip verbatim.
+ */
+export function findPastPeriods(
+  csvText: string,
+  now: Date = new Date(),
+): FindPastPeriodsResult {
+  const todayIso = localIsoDate(now)
+  const entries: PastPeriodEntry[] = []
+  const outRows: string[][] = []
+
+  for (const row of csvToRows(csvText)) {
+    const name = (row[0] ?? '').trim()
+    const out: string[] = [row[0] ?? '']
+    const periods = row.slice(1)
+    const completeCount = Math.floor(periods.length / 3) * 3
+
+    for (let i = 0; i < completeCount; i += 3) {
+      const rawStatus = periods[i] ?? ''
+      const rawStart = periods[i + 1] ?? ''
+      const rawEnd = periods[i + 2] ?? ''
+      const status = rawStatus.trim().toUpperCase()
+      const start = rawStart.trim()
+      const end = rawEnd.trim()
+      const isCompleteTriplet = status !== '' && start !== '' && end !== ''
+      const isValidStatus = status === 'C' || status === 'P'
+      const isPast =
+        isCompleteTriplet &&
+        isValidStatus &&
+        ISO_DATE_PATTERN.test(start) &&
+        ISO_DATE_PATTERN.test(end) &&
+        end < todayIso
+
+      if (isPast) {
+        entries.push({
+          name,
+          status: status as 'C' | 'P',
+          start,
+          end,
+          label: formatFinnishPeriodLabel(start, end),
+        })
+        continue
+      }
+      out.push(rawStatus, rawStart, rawEnd)
+    }
+
+    for (let i = completeCount; i < periods.length; i++) {
+      out.push(periods[i] ?? '')
+    }
+
+    if (out.every((cell) => cell === '')) continue
+    outRows.push(out)
+  }
+
+  return { entries, cleanedCsv: rowsToCsv(outRows) }
+}
